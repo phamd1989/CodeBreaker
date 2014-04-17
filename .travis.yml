@@ -4,5 +4,5 @@ python:
   - "2.7"
 # command to run tests
 script: 
-- ./codebreaker.py main
+- python ./codebreaker.py
 - ls
