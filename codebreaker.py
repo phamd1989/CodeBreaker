@@ -5,7 +5,7 @@ def safe_cast(val, to_type, default=None):
         return to_type(val)
     except ValueError:
         return default
-
+ 
 class CodeBreak:
   def play(self, params):
     if len(params) == 0 :
