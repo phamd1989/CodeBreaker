@@ -32,7 +32,7 @@ class TestCodeBreak(unittest.TestCase):
     self.c.play(["programname", "--debug=2342"])
     self.assertEqual(self.c.code, 2342)
   def testCodeBad(self):
-    self.c.play(["programname", "--debug=2342"])
+    self.c.play(["programname", "--debug=2342a"])
     self.assertEqual(self.c.code, None)
 
 
